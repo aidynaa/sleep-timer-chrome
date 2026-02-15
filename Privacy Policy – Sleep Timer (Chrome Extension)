@@ -1,0 +1,43 @@
+Privacy Policy – Sleep Timer (Chrome Extension)
+
+Effective date: February 14, 2026
+
+1. Overview
+
+Sleep Timer is a Chrome extension that displays the time remaining until a user-defined alarm time.
+This extension operates entirely locally within the user's browser.
+
+2. Data Collection
+Sleep Timer does not collect, store, transmit, or share any personal information.
+The extension does not collect:
+Personally identifiable information
+Health information
+Financial information
+Authentication data
+Location data
+Web history
+User activity
+Website content
+
+3. Local Storage
+The extension uses Chrome's storage API to save the user’s selected alarm time locally within the browser.
+This data:
+Is stored only on the user’s device
+Is not transmitted to any external servers
+Is not accessible to the developer
+Is used solely to restore the selected alarm time when the popup is reopened
+
+4. Data Sharing
+Sleep Timer does not sell, transfer, or share any user data with third parties.
+
+5. Third-Party Services
+This extension does not use analytics services, advertising networks, or external APIs.
+
+6. Changes to This Policy
+If the functionality of the extension changes in the future, this privacy policy will be updated accordingly.
+
+7. Contact
+If you have questions regarding this policy, you may contact:
+
+Aidyn Aldangar
+aidyn.aldangar@gmail.com
