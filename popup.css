@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 280px;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  background: linear-gradient(160deg, #1a1a2e 0%, #16213e 100%);
+  color: #e8e8e8;
+  min-height: 120px;
+}
+
+.heading {
+  margin: 0 0 12px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: #a0aec0;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.timer {
+  font-size: 32px;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.05em;
+  color: #fff;
+  margin-bottom: 20px;
+  text-shadow: 0 0 20px rgba(99, 179, 237, 0.3);
+}
+
+.alarm-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.alarm-section label {
+  font-size: 13px;
+  color: #a0aec0;
+}
+
+#alarm-input {
+  flex: 1;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+  border: 1px solid #2d3748;
+  border-radius: 8px;
+  background: #0f0f1a;
+  color: #fff;
+  outline: none;
+}
+
+#alarm-input:focus {
+  border-color: #63b3ed;
+  box-shadow: 0 0 0 2px rgba(99, 179, 237, 0.2);
+}
+
+#alarm-input::-webkit-calendar-picker-indicator {
+  filter: invert(0.8);
+  cursor: pointer;
+}

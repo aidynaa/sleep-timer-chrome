@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Sleep Timer",
+  "version": "1.0.0",
+  "description": "Shows time left until your set alarm (default 6:30 AM).",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage"]
+}
